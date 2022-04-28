@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Html practise test</title>
+    </head>
+    <body>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Contact.html">Contact Us</a>
+        </div>
+        <div>
+            <h3>Welcome to the Hotel Booking Website</h3>
+            <img src="./hotel.jpg" alt="person booking a hotel">
+            <hr />
+        </div>
+        <div>
+            <p>This Website allows users to book for a hotel in Ghana by specifying the type of room they would want.</p>
+            <span>All you have to do is</span>
+            <span>answer a few questions and we</span> 
+            <span>find the right <strong>hotel</strong> and <em>room</em> for you.</span>
+            <h5></h5>
+            <hr />
+        </div>
+        <div>
+            <h4>List of top rated hotels</h4>
+            <table>
+                <tr>
+                    <th>Hotel Names</th>
+                    <th>Ratings</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>Movenpick Hotel</td>
+                    <td>4-star hotel</td>
+                    <td>Accra</td>
+                </tr>
+                <tr>
+                    <td>Best Wesstern Plus Hotel</td>
+                    <td>4-star hotel</td>
+                    <td>Takoradi</td>
+                </tr>
+                <tr>
+                    <td>Eusbett Hotel</td>
+                    <td>3-star hotel</td>
+                    <td>Sunyani</td>
+                </tr>
+                <tr>
+                    <td>Nim Avenue Hotel</td>
+                    <td>4-star hotel</td>
+                    <td>Tamale</td>
+                </tr>
+                <tr>
+                    <td>Mac-Dic Royal Plaza Hotel</td>
+                    <td>4-star hotel</td>
+                    <td>Koforidua</td>
+                </tr>
+                <tr>
+                    <td>Golden Tulip Kumasi City</td>
+                    <td>4-star hotel</td>
+                    <td>LKumasi</td>
+                </tr>
+            </table>
+            <hr />
+        </div>
+        <h2>Let's get started...</h2>
+        <div>
+            <h4>Personal Information</h4>
+            <form action="">
+                <label for="fname">First Name:</label>
+                <input type="text" value="" id="fname" name="fname" placeholder="Enter your first name" required>
+                <label for="mname">Middle Name:</label>
+                <input type="text" value="" id="mname" name="mname" placeholder="Enter your middle name">
+                <label for="lname">Last Name:</label>
+                <input type="text" value="" id="lname" name="lname" placeholder="Enter your last name" required> <br> <br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" value="dateofbirth" name="dob"> <br> <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <hr>
+                <h4>Room reservation form</h4>
+                <label for="destination">Where are you going?</label>
+                <select name="destination" id="destination" required>
+                    <option value="">Select a destination</option>
+                    <option value="accra">Accra</option>
+                    <option value="capecoast">Cape Coast</option>
+                    <option value="ho">Ho</option>
+                    <option value="koforidua">Koforidua</option>
+                    <option value="kumasi">Kumasi</option>
+                    <option value="sunyani">Sunyani</option>
+                    <option value="takoradi">Takoradi</option>
+                    <option value="tamale">Tamale</option>
+                </select> <br><br>
+                <label for="checkin">Check In</label>
+                <input type="datetime-local" id="checkin" name="checkin" value="checkin" required> <br><br>
+                <label for="checkout">Check Out</label>
+                <input type="datetime-local" id="checkout" name="checkout" value="checkout" required> <br><br>
+                <label for="ratings">Hotel Ratings</label>
+                <input type="range" name="ratingss" id="ratingss" min="1" max="5" required><br><br>
+                <span>How many people are coming with you?</span> <br>
+                <span>Adults: </span>
+                <label for="one">1</label>
+                <input type="radio" id="one" name="adult" value="adult" required>
+                <label for="two">2</label>
+                <input type="radio" id="two" name="adult" value="adult" required>
+                <label for="three">3</label>
+                <input type="radio" id="three" name="adult" value="adult" required>
+                <label for="four">4</label>
+                <input type="radio" id="four" name="adult" value="adult" required>
+                <label for="five">5</label>
+                <input type="radio" id="five" name="adult" value="adult" required> <br><br>
+                <span>Children: </span>
+                <label for="one">1</label>
+                <input type="radio" id="one" name="children" value="children" required>
+                <label for="two">2</label>
+                <input type="radio" id="two" name="children" value="children" required>
+                <label for="three">3</label>
+                <input type="radio" id="three" name="children" value="children" required>
+                <label for="four">4</label>
+                <input type="radio" id="four" name="children" value="children" required>
+                <label for="five">5</label>
+                <input type="radio" id="five" name="children" value="children" required> <br><br>
+                <span>How many rooms do you want?</span> <br>
+                <label for="one">1</label>
+                <input type="radio" id="one" name="rooms" value="rooms" required>
+                <label for="two">2</label>
+                <input type="radio" id="two" name="rooms" value="rooms" required>
+                <label for="three">3</label>
+                <input type="radio" id="three" name="rooms" value="rooms" required>
+                <label for="four">4</label>
+                <input type="radio" id="four" name="rooms" value="rooms" required>
+                <label for="five">5</label>
+                <input type="radio" id="five" name="rooms" value="rooms"> <br><br>
+                <span>Room Bed Size</span> <br>
+                <label for="smalls">Small Single Bed</label>
+                <input type="radio" id="smalls" name="bed" value="bed" required>
+                <label for="single">Single Bed</label>
+                <input type="radio" id="single" name="bed" value="bed" required>
+                <label for="smallb">Small Double Bed</label>
+                <input type="radio" id="smallb" name="bed" value="bed" required>
+                <label for="double">Double Bed</label>
+                <input type="radio" id="double" name="bed" value="bed" required>
+                <label for="king">King Bed</label>
+                <input type="radio" id="king" name="bed" value="bed">
+                <label for="sking">Super King Bed</label>
+                <input type="radio" id="sking" name="bed" value="bed"> <br><br>
+                <span>What would you like to be served during your stay?</span> <br>
+                <label for="breakfast">Breakfast</label>
+                <input type="checkbox" id="breakfast" value="breakfast" name="food" required>
+                <label for="lunch">Lunch</label>
+                <input type="checkbox" id="lunch" value="breakfast" name="food" required>
+                <label for="supper">Supper</label>
+                <input type="checkbox" id="supper" value="breakfast" name="food" required> <br><br>
+                <label for="comments">Additional Comments</label><br>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+    </body>
+</html>
